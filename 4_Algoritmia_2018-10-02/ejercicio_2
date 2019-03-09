@@ -1,0 +1,21 @@
+algoritmo ejercicio_2
+//1.DESCRIPCION DEL PROLEMA
+
+//HALLAR EL AREA DE UN CAUDRADO QUE TIENE COMO LADO 5
+
+//2.DECLARACION DE VARIABLES Y CONSTANTES
+definir x,area como real;
+
+//3.IDENTIFICACION DE VARABLES Y CONSTANTES
+x<-0;
+area<-0;
+
+//4.DECOLECCION DE DATOS
+
+//5.PROCESAMIENTO DE LA INFORMACION
+area<-x*x;
+
+//6.VISUALIZACION DE LOS RESULTADOS
+escribir "el area de el cardarado de lado ",x," es de ",area; 
+
+fin algoritmo
