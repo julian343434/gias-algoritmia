@@ -13,8 +13,11 @@ Algoritmo sin_titulo
 	leer k;
 	//5.PROCESAMIENTO DE LA INFORMACION
 	para i<--5 hasta 5 con paso 1 hacer
-		pro<-k*i;
-		escribir k," X ",i," =",pro;
+		si i>0 entonces
+			pro<-k*i;
+			escribir k," X ",i," =",pro;
+		FinSi
+	
 	FinPara
 	//6.VISUALIZACION DE LOS RESULTADOS
 	
