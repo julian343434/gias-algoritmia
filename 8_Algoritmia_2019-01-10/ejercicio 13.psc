@@ -8,7 +8,7 @@ Algoritmo sin_titulo
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
 	sal<-0;
 	horas<-0;
-	i<-0;
+	i<-1;
 	nombre<-"";
 	n<-0;
 	s<-1;
@@ -16,7 +16,7 @@ Algoritmo sin_titulo
     escribir "digite el numero de trabajadores";
 	leer n;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-n hasta 1 con paso -1
+	mientras i<=n hacer
 		horas<-azar(10)+41;
 		val<-azar(3000)+7001;
 		sal<-val*horas;
@@ -37,6 +37,7 @@ Algoritmo sin_titulo
 		escribir "el salario de el trabajador #",s," llamado ",nombre;
 		escribir "es de ",sal;
 	s<-s+1;
-	FinPara
+	i<-1+i;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 FinAlgoritmo

@@ -5,8 +5,8 @@ Algoritmo sin_titulo
 	definir i,j,n,x,v como entera;
 	definir mul,suma,div,k,r como real;
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
-    i<-0;
-	j<-0;
+    i<-1;
+	j<-1;
 	suma<-0;
 	div<-0;
 	v<-1;
@@ -19,19 +19,21 @@ Algoritmo sin_titulo
 	escribir "digite el valor de la x";
 	leer x;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-n hasta 1 con paso -1 
-		para j<-v hasta 1 con paso -1
+	mientras i<=n hacer 
+		para j<=v hacer
 			r<-r+1;
 			k<-k*r;
 			mul<-mul*x;
 			div<-mul/k;
-		FinPara
+			j<-j+1;
+		Finmientras
 		v<-v+1;
 		mul<-1;
 		k<-1;
 		r<-0;
 		suma<-suma+div;
-	FinPara
+		i<-i+1;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 	escribir "el valor en y de la funcion es de ",suma;
 FinAlgoritmo

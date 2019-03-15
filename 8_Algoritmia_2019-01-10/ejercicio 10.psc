@@ -4,8 +4,8 @@ Algoritmo sin_titulo
 	//2.DECLARACION DE VARIABLES Y CONSTANTES
 	definir i,j como entero;
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
-    i<-0;
-	j<-0;
+    i<-1;
+	j<-1;
 	//4.DECOLECCION DE DATOS
 
 	//5.PROCESAMIENTO DE LA INFORMACION

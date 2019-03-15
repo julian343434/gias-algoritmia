@@ -4,7 +4,7 @@ Algoritmo sin_titulo
 	//2.DECLARACION DE VARIABLES Y CONSTANTES
 	definir w,i,n,cubo,num como entero;
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
-    i<-0;
+    i<-1;
 	n<-0;
 	cubo<-0;
 	num<-0;
@@ -15,11 +15,12 @@ Algoritmo sin_titulo
 	escribir "digite el rago de los numeros de 0 a ??";
 	leer w;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-n hasta 1 con paso -1 hace
+	mientras i<=n hacer
 		num<-azar(w)+1;
 		cubo<-num^3;
 		escribir "el cubo de el numero ",num," es ",cubo ;
-	FinPara
+		i<-i+1;
+	Finmientra
 	//6.VISUALIZACION DE LOS RESULTADOS
 	
 FinAlgoritmo

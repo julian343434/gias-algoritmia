@@ -4,7 +4,7 @@ Algoritmo sin_titulo
 	//2.DECLARACION DE VARIABLES Y CONSTANTES
 	definir n,i,x,suma,suma2,suma3,total como entero;
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
-    i<-0;
+    i<-1;
 	x<-0;
 	n<-0;
 	suma<-0;
@@ -15,7 +15,7 @@ Algoritmo sin_titulo
 	escribir "digite el numero de ventas relizadas ";
 	leer n;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-n hasta 1 con paso -1
+	mientras i<=n hacer
 		x<-azar(2000000);
 		si x<=1000000 entonces
 			suma<-suma+1;
@@ -27,7 +27,8 @@ Algoritmo sin_titulo
 		escribir "el monto de la venta #",suma3," es ",x;
 		total<-x+total;
 		suma3<-suma3+1;
-	FinPara
+		i<-i+1;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 	Escribir "la cantidad de ventas menores e iguales a un millon  fueron ",suma;
 	Escribir "la cantidad de ventas mayor a un millon pero menor a dos millones fueron ",suma2;

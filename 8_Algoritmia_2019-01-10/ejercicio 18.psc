@@ -6,10 +6,10 @@ Algoritmo sin_titulo
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
 	x<-1;
 	b<-1;
-	j<-0;
+	j<-1;
 	c<-0;
 	s<-0;
-	i<-0;
+	i<-1;
 	sum<-0;
 	div<-0;
 	
@@ -17,11 +17,12 @@ Algoritmo sin_titulo
 	escribir "digite el angulo";
 	leer s;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-1 hasta 7 con paso 2 hacer 
-		para j<-1 hasta i con paso 1 hacer 
+	para i<=7 hacer
+		para j<=i hacer 
 			x<-x*(b);
 		    b<-1+b;
-		fin para 
+		    j<-j+1;
+		finmientras 
 
 		c<-(s)^(i);
 		div<-c/x;
@@ -33,7 +34,8 @@ Algoritmo sin_titulo
 		FinSi
 		x<-1;
 		b<-1;
-	FinPara
+		i<-i+1;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 	escribir "el seno de ",s," es de ",sum; 
 FinAlgoritmo

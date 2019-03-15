@@ -6,7 +6,7 @@ Algoritmo sin_titulo
 	definir ganar,p como real; 
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
     p<-150000;
-	i<-0;
+	i<-1;
 	ganar<-0;
 	val<-0;
 	anos<-0;
@@ -15,10 +15,11 @@ Algoritmo sin_titulo
 	leer anos;
 	anos<-anos-1961;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<-anos hasta 1 con paso -1 
+	para i<=anos hasta 1 con paso -1 
 		ganar<-p*(1+(15/100));
 		p<-ganar;
-	FinPara
+		i<-i+1;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 	escribir "su saldo es de ",p;
 FinAlgoritmo

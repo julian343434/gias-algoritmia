@@ -5,20 +5,20 @@ Algoritmo sin_titulo
 	definir i,k,pro como entero;
 	
 	//3.IDENTIFICACION DE VARABLES Y CONSTANTES
-    i<-0;
+    i<--5;
 	k<-0;
 	pro<-0;
 	//4.DECOLECCION DE DATOS
     escribir "digite el numero al cual quiere sacarle la tabla";
 	leer k;
 	//5.PROCESAMIENTO DE LA INFORMACION
-	para i<--5 hasta 5 con paso 1 hacer
+	para i<=5 hacer
 		si i>0 entonces
 			pro<-k*i;
 			escribir k," X ",i," =",pro;
 		FinSi
-	
-	FinPara
+		i<-i+1;
+	Finmientras
 	//6.VISUALIZACION DE LOS RESULTADOS
 	
 FinAlgoritmo
