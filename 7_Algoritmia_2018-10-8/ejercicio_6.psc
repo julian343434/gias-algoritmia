@@ -13,7 +13,7 @@ f<-0;
 escribir "digite el numero de articulos ha llevar";
 leer i;
 //PROCESAMIENTO DE LA INFORMACION
-para i hasta 0 con paso -1 hacer
+para i<-0 hasta 0 con paso -1 hacer
 	escribir "digite el valor de el articulo";
 	leer x;
 	si x>=200000 entonces
