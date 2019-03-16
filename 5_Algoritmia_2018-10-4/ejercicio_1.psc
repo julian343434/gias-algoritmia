@@ -13,5 +13,5 @@ escribir "digite el valor de el lado de el cuadrado",sin saltar;
 //PROCESAMIENTO DE LA INFORMACION
 peri<-x*4;
 //RESULTADOS
-escrbir "el perimetro es de ",peri;
+escribir "el perimetro es de ",peri;
 fin algoritmo

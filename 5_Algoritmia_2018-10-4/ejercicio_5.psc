@@ -1,4 +1,4 @@
-algoritmo
+algoritmo ejercicio_5
 //DESCRIPCION DEL PROBLEMA
 
 //HALLAR EL AREA DE UN PENTAGONO REGULAR

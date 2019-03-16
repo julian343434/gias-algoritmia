@@ -1,10 +1,10 @@
-algoritmo
+algoritmo ejercicio_4
 //1.DESCRIPCION DEL PROLEMA A PROGRAMA QUE
 
 //HALLAR EL AREA Y PERIMETRO DE UN CIRCULO DIGITANDO EL RADIO 
 
 //2.DECLARACION DE VARIABLES Y CONSTANTES
-definir area,peri,rad;
+definir area,peri,rad como real;
 //3.IDENTIFICACION DE VARABLES Y CONSTANTES
 area<-0;
 peri<-0;

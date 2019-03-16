@@ -1,4 +1,4 @@
-ialgoritmo
+algoritmo ejercicio_2
 //1.DESCRIPCION DEL PROLEMA A PROGRAMAR
 
 //HALLAR EL AREA DE UN CUADRADO
