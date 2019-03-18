@@ -16,21 +16,22 @@ public:
     void mostrarMensaje()const
     {
         cout<<"nombre del libro de calificaciones para\n"
-        <<endl;
+        <<obtenerNombreCurso()<<"|"
+            <<endl;
     }
 private:
     string nombreCurso;
 };
 int main()
 {
-    string nombreCurso;
+    string nombreDelCurso;
     LibroCalificaciones miLibroCalificaciones;
     cout<<"el nombre iniicial del curso es:"
     <<miLibroCalificaciones.obtenerNombreCurso()
         <<endl;
     cout<<"\nEscribir el nombre del curso:"<<endl;
     getline( cin,nombreDelCurso);
-    miLibroCalificaciones.establecerNombreCurso( nombreDelCurso )
+    miLibroCalificaciones.establecerNombreCurso( nombreDelCurso );
 
     cout<<endl;
     miLibroCalificaciones.mostrarMensaje();

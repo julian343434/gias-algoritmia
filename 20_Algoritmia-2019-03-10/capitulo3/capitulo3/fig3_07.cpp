@@ -1,5 +1,5 @@
 #include <iostream>
-#inlcude <string>
+#include <string>
 
 using namespace std;
 
@@ -22,18 +22,19 @@ public:
     void mostrarMensaje()const
     {
         cout<<"bienvenido al libro de calificaciones para\n"
-        <<obtenerNombreCurso()<<"!"<<endl;
+        <<obtenerNombreCurso()
+        <<"!"<<endl;
     }
-private
+private:
     string nombreCurso;
 };
 int main()
 {
-    LibroCalificaciones libroCalificaiones1("CSS101 introduccion a la programcacion en c+");
+    LibroCalificaciones libroCalificaciones1("CSS101 introduccion a la programcacion en c+");
     LibroCalificaciones libroCalificaciones2("CSS102 estructura de datos en c++");
     cout<<"libro de calificaciones se creo para el curso:"
     <<libroCalificaciones1.obtenerNombreCurso()
     <<"\nlibroCalificaciones2 se creo para el curso:"
-    <<libroCalificaciones2.obtenerNombreCurso
+    <<libroCalificaciones2.obtenerNombreCurso()
     <<endl;
 }

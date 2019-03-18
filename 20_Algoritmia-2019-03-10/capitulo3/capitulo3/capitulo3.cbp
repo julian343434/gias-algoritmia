@@ -33,6 +33,10 @@
 		</Compiler>
 		<Unit filename="ejercicio_1.cpp" />
 		<Unit filename="ejercicio_2.cpp" />
+		<Unit filename="ejercicio_3.cpp" />
+		<Unit filename="ejercicio_4.cpp" />
+		<Unit filename="ejercicio_5.cpp" />
+		<Unit filename="ejercicio_6.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

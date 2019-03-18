@@ -5,7 +5,7 @@ class LibroCalificaciones
 {
 public:
     explicit LibroCalificaciones(std::string nombre)
-    : nombreCurso(nombre)
+    : nombreCurso( nombre )
     {
 
     }
@@ -19,7 +19,7 @@ public:
     }
     void mostrarMensaje()
     {
-        std::cout "bienvenido al libro de calificaciones ";
+        std::cout <<"bienvenido al libro de calificaciones "
         <<obtenerNombreCurso()
         <<"|"<<std::endl;
     }

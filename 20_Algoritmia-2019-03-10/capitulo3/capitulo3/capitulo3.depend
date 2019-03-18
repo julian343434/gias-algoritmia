@@ -1,3 +1,30 @@
 # depslib dependency file v1.0
 1552748619 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\main.cpp
 
+1552749138 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_1.cpp
+	<iostream>
+
+1552877193 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_2.cpp
+	<iostream>
+	<string>
+
+1552877512 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_3.cpp
+	<iostream>
+	<string>
+
+1552877982 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_4.cpp
+	<iostream>
+	<string>
+
+1552878095 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_5.cpp
+	<iostream>
+	<string>
+
+1552878174 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\ejercicio_6.cpp
+	<iostream>
+	"LibroCalificaciones.h"
+
+1552878095 c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo3\capitulo3\librocalificaciones.h
+	<iostream>
+	<string>
+

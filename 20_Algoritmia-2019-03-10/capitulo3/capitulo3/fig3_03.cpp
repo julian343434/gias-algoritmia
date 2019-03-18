@@ -17,7 +17,7 @@ int main()
     string nombreDelCurso;
     LibroCalificaciones miLibroCalificaciones;
     cout<<"escribir el nombre del curso !"<<endl;
-    getline( cin,nombreCurso);
+    getline( cin,nombreDelCurso);
     cout<<endl;
-    mi LibroCalificaciones.mostrarMensaje( nombreDelCurso)
+    miLibroCalificaciones.mostrarMensaje( nombreDelCurso);
 }
