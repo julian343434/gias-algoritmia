@@ -5,7 +5,7 @@ using namespace std;
 
 class LibroCalificaciones
 {
-public;
+public:
     void mostrarMensaje( string nombreCurso) const
     {
         cout<<"bienvenidos al libro de calificaciones\n"<<nombreCurso<<"!"
