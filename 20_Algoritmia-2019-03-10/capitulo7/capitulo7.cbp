@@ -39,6 +39,18 @@
 		<Unit filename="fig7_08.cpp" />
 		<Unit filename="fig7_09.cpp" />
 		<Unit filename="fig7_10.cpp" />
+		<Unit filename="fig7_11.cpp" />
+		<Unit filename="fig7_12.cpp" />
+		<Unit filename="fig7_13.cpp" />
+		<Unit filename="fig7_15.cpp" />
+		<Unit filename="fig7_16.cpp" />
+		<Unit filename="fig7_17.cpp" />
+		<Unit filename="fig7_18.cpp" />
+		<Unit filename="fig7_20.cpp" />
+		<Unit filename="fig7_22.cpp" />
+		<Unit filename="fig7_23.cpp" />
+		<Unit filename="fig7_24.cpp" />
+		<Unit filename="fig7_25.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
