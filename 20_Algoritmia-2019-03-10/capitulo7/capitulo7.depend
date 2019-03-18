@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1552888608 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo7\fig7_03.cpp
+	<iostream>
+	<iomanip>
+	<array>
+
+1552888680 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo7\fig7_04.cpp
+	<iostream>
+	<iomanip>
+	<array>
+
+1552888791 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo7\fig7_05.cpp
+	<iostream>
+	<iomanip>
+	<array>
+
+1552888876 source:c:\users\escritorio\documents\gias-algoritmia\20_algoritmia-2019-03-10\capitulo7\fig7_06.cpp
+	<iostream>
+
